@@ -445,6 +445,39 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Walk Booster [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Alex Calmant"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d'Alex Calmant:", {
+            file: "https://zupimages.net/up/19/11/ccil.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Calmant [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Tyler Andersone"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Tyler Andersone:", {
+            file: "https://zupimages.net/up/19/11/o77w.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tyler Andersone [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Jean Duprès"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Jean Duprès:", {
+            file: "https://zupimages.net/up/19/11/s4fa.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jean Duprès [Succès].");
+        
+    }
 
 });
 
