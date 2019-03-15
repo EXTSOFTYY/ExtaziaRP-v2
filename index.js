@@ -467,6 +467,50 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jean Duprès [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Abraham Rowland"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d'Abraham Rowland:", {
+            file: "https://zupimages.net/up/19/11/bwnw.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Abraham Rowland [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Demarcus Fitzgerald"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Demarcus Fitzgerald:", {
+            file: "https://zupimages.net/up/19/11/boyz.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Demarcus Fitzgerald [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Santana Ross"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Santana Ross:", {
+            file: "https://zupimages.net/up/19/11/dljt.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Santana Ross [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Ronald Macway"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Ronald Macway:", {
+            file: "https://zupimages.net/up/19/11/amds.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ronald Macway [Succès].");
+        
+    }
 
 });
 
