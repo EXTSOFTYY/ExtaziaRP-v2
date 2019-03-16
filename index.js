@@ -418,7 +418,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Tyler Andersone"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Tyler Andersone:", {
-            file: "https://zupimages.net/up/19/11/o77w.jpg"
+            file: "https://zupimages.net/up/19/11/rw2t.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tyler Andersone [Succès].");
         
@@ -440,7 +440,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Abraham Rowland"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Abraham Rowland:", {
-            file: "https://zupimages.net/up/19/11/bwnw.jpg"
+            file: "https://zupimages.net/up/19/11/65sp.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Abraham Rowland [Succès].");
         
@@ -473,7 +473,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Ronald Macway"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ronald Macway:", {
-            file: "https://zupimages.net/up/19/11/amds.jpg"
+            file: "https://zupimages.net/up/19/11/zjp3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ronald Macway [Succès].");
         
