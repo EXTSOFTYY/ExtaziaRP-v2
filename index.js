@@ -316,17 +316,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Mehdi Yacoub"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Mehdi Yacoub:", {
-            file: "https://zupimages.net/up/19/11/c73b.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mehdi Yacoub [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Michael Shelby"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Michael Shelby:", {
