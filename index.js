@@ -478,6 +478,50 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Cyana Levy [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Alex Strinton"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d'Alex Strinton:", {
+            file: "https://zupimages.net/up/19/12/iwuw.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Strinton [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Walter Cold"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Walter Cold:", {
+            file: "https://zupimages.net/up/19/12/qore.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Walter Cold [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci José Delavega"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de José Delavega:", {
+            file: "https://zupimages.net/up/19/12/if5e.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci José Delavega [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Miguel Felix Gallardo"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Miguel Felix Gallardo:", {
+            file: "https://zupimages.net/up/19/12/dj9t.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Miguel Felix Gallardo [Succès].");
+        
+    }
 
 });
 
