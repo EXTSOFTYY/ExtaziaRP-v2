@@ -121,7 +121,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Aly Gatares"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Aly Gatares:", {
-            file: "https://zupimages.net/up/19/10/0ghh.jpg"
+            file: "https://zupimages.net/up/19/12/6b3e.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aly Gatares [Succès].");
         
@@ -275,7 +275,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Kad Illaq"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kad Illaq:", {
-            file: "https://zupimages.net/up/19/11/6jzx.jpg"
+            file: "https://zupimages.net/up/19/12/1yxk.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kad Illaq [Succès].");
         
@@ -352,7 +352,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Taylor Sweet"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Taylor Sweet:", {
-            file: "https://zupimages.net/up/19/11/tdgv.jpg"
+            file: "https://zupimages.net/up/19/12/xbdc.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Taylor Sweet [Succès].");
         
@@ -396,7 +396,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Alex Calmant"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Alex Calmant:", {
-            file: "https://zupimages.net/up/19/11/ccil.jpg"
+            file: "https://zupimages.net/up/19/12/cnf1.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Calmant [Succès].");
         
@@ -407,7 +407,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Tyler Andersone"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Tyler Andersone:", {
-            file: "https://zupimages.net/up/19/11/rw2t.jpg"
+            file: "https://zupimages.net/up/19/12/3seu.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tyler Andersone [Succès].");
         
@@ -520,28 +520,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/12/w0mi.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Smith [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Luka Petrović"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Luka Petrović:", {
-            file: "https://zupimages.net/up/19/12/hw9z.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Luka Petrović [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Nikolaï Petrović"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Nikolaï Petrović:", {
-            file: "https://zupimages.net/up/19/12/47wn.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nikolaï Petrović [Succès].");
         
     }
 
