@@ -522,6 +522,39 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Miguel Felix Gallardo [Succès].");
         
     }
+    
+     // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci John Smith"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de John Smith:", {
+            file: "https://zupimages.net/up/19/12/w0mi.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Smith [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Luka Petrović"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Luka Petrović:", {
+            file: "https://zupimages.net/up/19/12/hw9z.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Luka Petrović [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Nikolaï Petrović"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Nikolaï Petrović:", {
+            file: "https://zupimages.net/up/19/12/47wn.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nikolaï Petrović [Succès].");
+        
+    }
 
 });
 
