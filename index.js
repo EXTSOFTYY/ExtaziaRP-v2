@@ -500,29 +500,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci José Delavega [Succès].");
         
     }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Miguel Felix Gallardo"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Miguel Felix Gallardo:", {
-            file: "https://zupimages.net/up/19/12/dj9t.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Miguel Felix Gallardo [Succès].");
-        
-    }
-    
-     // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci John Smith"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de John Smith:", {
-            file: "https://zupimages.net/up/19/12/w0mi.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Smith [Succès].");
-        
-    }
-
 });
 
 bot.login(process.env.TOKEN);
