@@ -470,17 +470,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Alex Strinton"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d'Alex Strinton:", {
-            file: "https://zupimages.net/up/19/12/iwuw.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Strinton [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Walter Cold"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Walter Cold:", {
