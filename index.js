@@ -33,24 +33,6 @@ bot.on('message', message => {
         message.channel.send(say);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
     }
-    
-    // -> Commande /anonyme.
-
-    if (command === 'anonyme') {
-        let say = args.join(' ');
-        message.delete();
-        message.channel.send(say);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /anonyme [<message>] [Succès].");
-    }
-    
-    // -> Commande /LSPD.
-
-    if (command === 'lspd') {
-        let say = args.join(' ');
-        message.delete();
-        message.channel.send(say);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /lspd [<message>] [Succès].");
-    }
 
     // Sondage RP - 15h00.
 
