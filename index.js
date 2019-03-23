@@ -140,17 +140,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Arthur Calmant"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d' Arthur Calmant:", {
-            file: "https://zupimages.net/up/19/10/n6dl.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Arthur Calmant [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Brisse Dennisse"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Brisse Dennisse:", {
@@ -179,17 +168,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/10/ea3i.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Evan Guibert [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Garrett Robinson"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Garrett Robinson:", {
-            file: "https://zupimages.net/up/19/10/dosv.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Garrett Robinson [Succès].");
         
     }
 
@@ -225,18 +203,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci James Rodriguez [Succès].");
         
     }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Jason Calmant"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Jason Calmant:", {
-            file: "https://zupimages.net/up/19/11/vp6z.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jason Calmant [Succès].");
-        
-    }
-
     // -> ci d'identité - UPDATE 2.0
 
     if (message.content === prefix + "ci Joachim Sanders"){
@@ -388,17 +354,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/11/h7w6.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Walk Booster [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Alex Calmant"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d'Alex Calmant:", {
-            file: "https://zupimages.net/up/19/12/cnf1.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Calmant [Succès].");
         
     }
     
