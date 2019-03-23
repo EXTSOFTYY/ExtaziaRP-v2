@@ -151,17 +151,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Bryan Shelby"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Bryan Shelby:", {
-            file: "https://zupimages.net/up/19/10/n0tj.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bryan Shelby [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Evan Guibert"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Evan Guibert:", {
@@ -203,16 +192,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci James Rodriguez [Succès].");
         
     }
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Joachim Sanders"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Joachim Sanders:", {
-            file: "https://zupimages.net/up/19/11/p3xt.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Joachim Sanders [Succès].");
-        
-    }
 
     // -> ci d'identité - UPDATE 2.0
 
@@ -249,17 +228,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Malcom Shelby"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Malcom Shelby:", {
-            file: "https://zupimages.net/up/19/11/trru.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Malcom Shelby [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Marko Markovic"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Marko Markovic:", {
@@ -277,17 +245,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/11/6oam.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Math Mohrez [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Michael Shelby"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Michael Shelby:", {
-            file: "https://zupimages.net/up/19/11/qdbc.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Michael Shelby [Succès].");
         
     }
 
@@ -332,17 +289,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/11/bkid.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Théodore Bagwell [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Thomas Shelby"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Thomas Shelby:", {
-            file: "https://zupimages.net/up/19/11/k7kz.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Thomas Shelby [Succès].");
         
     }
 
