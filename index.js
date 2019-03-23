@@ -413,17 +413,6 @@ bot.on('message', message => {
         
     }
     
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Frederick Los Barros"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Frederick Los Barros:", {
-            file: "https://zupimages.net/up/19/12/ba9m.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Frederick Los Barros [Succès].");
-        
-    }
-    
 });
 
 bot.login(process.env.TOKEN);
