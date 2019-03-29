@@ -338,17 +338,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Santana Ross"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Santana Ross:", {
-            file: "https://zupimages.net/up/19/11/dljt.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Santana Ross [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Ronald Macway"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ronald Macway:", {
