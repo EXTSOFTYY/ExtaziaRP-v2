@@ -206,17 +206,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Jules Voulot"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Jules Voulot:", {
-            file: "https://zupimages.net/up/19/11/f16c.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jules Voulot [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Kad Illaq"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kad Illaq:", {
@@ -234,17 +223,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/11/s582.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Marko Markovic [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Math Mohrez"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Math Mohrez:", {
-            file: "https://zupimages.net/up/19/11/6oam.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Math Mohrez [Succès].");
         
     }
 
@@ -305,78 +283,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Tyler Andersone"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Tyler Andersone:", {
-            file: "https://zupimages.net/up/19/12/3seu.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tyler Andersone [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Jean Duprès"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Jean Duprès:", {
-            file: "https://zupimages.net/up/19/11/s4fa.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jean Duprès [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Abraham Rowland"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d'Abraham Rowland:", {
-            file: "https://zupimages.net/up/19/11/65sp.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Abraham Rowland [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Ronald Macway"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ronald Macway:", {
             file: "https://zupimages.net/up/19/11/zjp3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ronald Macway [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Cyana Levy"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Cyana Levy:", {
-            file: "https://zupimages.net/up/19/11/ay85.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Cyana Levy [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Walter Cold"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Walter Cold:", {
-            file: "https://zupimages.net/up/19/12/qore.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Walter Cold [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci José Delavega"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de José Delavega:", {
-            file: "https://zupimages.net/up/19/12/if5e.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci José Delavega [Succès].");
         
     }
     
