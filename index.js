@@ -303,6 +303,17 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Arès Hoffmann"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d'Arès Hoffmann:", {
+            file: "https://zupimages.net/up/19/14/2p1s.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Arès Hoffmann [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
