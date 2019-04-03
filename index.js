@@ -314,6 +314,17 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Daniel Hernandez"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Daniel Hernandez:", {
+            file: "https://zupimages.net/up/19/14/3mxt.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Daniel Hernandez [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
