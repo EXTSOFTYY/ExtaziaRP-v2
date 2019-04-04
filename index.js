@@ -242,7 +242,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Roulio Ochoa"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Roulio Ochoa:", {
-            file: "https://zupimages.net/up/19/11/mdya.jpg"
+            file: "https://zupimages.net/up/19/14/hu5l.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Roulio Ochoa [Succès].");
         
@@ -308,7 +308,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Arès Hoffmann"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Arès Hoffmann:", {
-            file: "https://zupimages.net/up/19/14/2p1s.jpg"
+            file: "https://zupimages.net/up/19/14/zdim.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Arès Hoffmann [Succès].");
         
@@ -319,7 +319,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Daniel Hernandez"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Daniel Hernandez:", {
-            file: "https://zupimages.net/up/19/14/3mxt.jpg"
+            file: "https://zupimages.net/up/19/14/bhut.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Daniel Hernandez [Succès].");
         
