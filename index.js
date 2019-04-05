@@ -325,6 +325,28 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Booby McPinch"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Booby McPinch:", {
+            file: "https://zupimages.net/up/19/14/epik.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Booby McPinch [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Max Romano"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Max Romano:", {
+            file: "https://zupimages.net/up/19/14/2kb6.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Max Romano [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
