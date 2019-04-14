@@ -140,17 +140,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Brisse Dennisse"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d' Brisse Dennisse:", {
-            file: "https://zupimages.net/up/19/10/6vil.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Brisse Dennisse [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Evan Guibert"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Evan Guibert:", {
