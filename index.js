@@ -217,17 +217,6 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Taylor Sweet"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Taylor Sweet:", {
-            file: "https://zupimages.net/up/19/12/xbdc.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Taylor Sweet [Succès].");
-        
-    }
-
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Théodore Bagwell"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Théodore Bagwell:", {
