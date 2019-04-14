@@ -281,6 +281,50 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Didier Tessier"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Didier Tessier:", {
+            file: "https://zupimages.net/up/19/15/8935.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Didier Tessier [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Franklin White"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Franklin White:", {
+            file: "https://zupimages.net/up/19/15/i679.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Franklin White [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Guerreiro Quintana"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Guerreiro Quintana:", {
+            file: "https://zupimages.net/up/19/15/74w4.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guerreiro Quintana [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Micke Donkey"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Micke Donkey:", {
+            file: "https://zupimages.net/up/19/15/9swy.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Micke Donkey [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
