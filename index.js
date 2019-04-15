@@ -347,6 +347,17 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Dimitri Raskalov"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Dimitri Raskalov:", {
+            file: "https://zupimages.net/up/19/16/4747.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Dimitri Raskalov [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
