@@ -314,6 +314,39 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Cédric Ocher"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Cédric Ocher:", {
+            file: "https://zupimages.net/up/19/16/bdjh.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Cédric Ocher [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Corentin Pou"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Corentin Pou:", {
+            file: "https://zupimages.net/up/19/16/wkiw.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Corentin Pou [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Mathys Torique"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Mathys Torique:", {
+            file: "https://zupimages.net/up/19/16/v8fe.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mathys Torique [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
