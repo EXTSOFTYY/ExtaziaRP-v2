@@ -358,6 +358,28 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Killian Pachocki"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Killian Pachocki:", {
+            file: "https://zupimages.net/up/19/16/rdyn.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Killian Pachocki [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Elias Tores"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d' Elias Tores:", {
+            file: "https://zupimages.net/up/19/16/mmcm.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Elias Tores [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
