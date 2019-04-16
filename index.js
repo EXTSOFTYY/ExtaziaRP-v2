@@ -154,7 +154,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Guillaume Popa"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Guillaume Popa:", {
-            file: "https://zupimages.net/up/19/10/h6lq.jpg"
+            file: "https://zupimages.net/up/19/16/lau8.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guillaume Popa [Succès].");
         
@@ -377,6 +377,17 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/16/mmcm.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Elias Tores [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Florian Blé"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Florian Blé:", {
+            file: "https://zupimages.net/up/19/16/9w46.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Florian Blé [Succès].");
         
     }
     
