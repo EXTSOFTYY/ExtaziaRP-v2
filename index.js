@@ -341,7 +341,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mathys Torique"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mathys Torique:", {
-            file: "https://zupimages.net/up/19/16/v8fe.jpg"
+            file: "https://zupimages.net/up/19/16/e9oc.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mathys Torique [Succès].");
         
