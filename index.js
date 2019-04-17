@@ -154,7 +154,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Guillaume Popa"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Guillaume Popa:", {
-            file: "https://zupimages.net/up/19/16/lau8.jpg"
+            file: "https://zupimages.net/up/19/16/tnmp.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guillaume Popa [Succès].");
         
@@ -165,7 +165,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci John Hunter"){
         message.delete();
         message.channel.send("Voici la ci d'identité de John Hunter:", {
-            file: "https://zupimages.net/up/19/16/wtff.jpg"
+            file: "https://zupimages.net/up/19/16/be1w.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Hunter [Succès].");
         
@@ -220,7 +220,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Théodore Bagwell"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Théodore Bagwell:", {
-            file: "https://zupimages.net/up/19/16/mz6a.jpg"
+            file: "https://zupimages.net/up/19/16/xnp4.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Théodore Bagwell [Succès].");
         
@@ -363,7 +363,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Killian Pachocki"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Killian Pachocki:", {
-            file: "https://zupimages.net/up/19/16/rdyn.jpg"
+            file: "https://zupimages.net/up/19/16/45f9.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Killian Pachocki [Succès].");
         
