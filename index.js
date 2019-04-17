@@ -250,17 +250,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Daniel Hernandez"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Daniel Hernandez:", {
-            file: "https://zupimages.net/up/19/14/bhut.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Daniel Hernandez [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Booby McPinch"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Booby McPinch:", {
