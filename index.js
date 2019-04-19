@@ -374,7 +374,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Florian Blé"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Florian Blé:", {
-            file: "https://zupimages.net/up/19/16/9w46.jpg"
+            file: "https://zupimages.net/up/19/16/gtbm.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Florian Blé [Succès].");
         
@@ -396,7 +396,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Franck Castle"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Franck Castle:", {
-            file: "https://zupimages.net/up/19/16/k40f.jpg"
+            file: "https://zupimages.net/up/19/16/zv6n.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Franck Castle [Succès].");
         
