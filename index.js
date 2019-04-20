@@ -396,7 +396,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Vick Marshall"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Vick Marshall:", {
-            file: "https://zupimages.net/up/19/16/ibc7.jpg"
+            file: "https://zupimages.net/up/19/16/ctaw.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Vick Marshall [Succès].");
         
@@ -407,7 +407,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mauricio White"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mauricio White:", {
-            file: "https://zupimages.net/up/19/16/y4qw.jpg"
+            file: "https://zupimages.net/up/19/16/ywwl.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mauricio White [Succès].");
         
@@ -418,9 +418,20 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Kyoto Clover"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kyoto Clover:", {
-            file: "https://zupimages.net/up/19/16/sikw.jpg"
+            file: "https://zupimages.net/up/19/16/tdsj.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kyoto Clover [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Arthuro Da Silva"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d'Arthuro Da Silva:", {
+            file: "https://zupimages.net/up/19/16/ev67.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Arthuro Da Silva [Succès].");
         
     }
     
