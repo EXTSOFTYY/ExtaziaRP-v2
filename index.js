@@ -415,17 +415,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Arthuro Da Silva"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d'Arthuro Da Silva:", {
-            file: "https://zupimages.net/up/19/16/ev67.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Arthuro Da Silva [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Kinsley Bvendo"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kinsley Bvendo:", {
