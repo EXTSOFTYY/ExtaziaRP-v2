@@ -206,12 +206,12 @@ bot.on('message', message => {
 
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Roulio Ochoa"){
+    if (message.content === prefix + "ci Seth Johnson"){
         message.delete();
-        message.channel.send("Voici la ci d'identité de Roulio Ochoa:", {
-            file: "https://zupimages.net/up/19/14/hu5l.jpg"
+        message.channel.send("Voici la ci d'identité de Seth Johnson:", {
+            file: "https://zupimages.net/up/19/17/rvaf.jpg"
         });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Roulio Ochoa [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Seth Johnson [Succès].");
         
     }
 
