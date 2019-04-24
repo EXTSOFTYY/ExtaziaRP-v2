@@ -360,17 +360,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Vick Marshall"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Vick Marshall:", {
-            file: "https://zupimages.net/up/19/16/ctaw.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Vick Marshall [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Mauricio White"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mauricio White:", {
