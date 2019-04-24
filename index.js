@@ -360,17 +360,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Mauricio White"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Mauricio White:", {
-            file: "https://zupimages.net/up/19/16/ywwl.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mauricio White [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Kyoto Clover"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kyoto Clover:", {
@@ -388,17 +377,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/16/sl23.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kinsley Bvendo [Succès].");
-        
-    }
-    
-     // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Matt Scofield"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Matt Scofield:", {
-            file: "https://zupimages.net/up/19/16/xmom.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Matt Scofield [Succès].");
         
     }
     
