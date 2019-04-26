@@ -198,7 +198,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Seth Johnson"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Seth Johnson:", {
-            file: "https://zupimages.net/up/19/17/rvaf.jpg"
+            file: "https://zupimages.net/up/19/17/yple.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Seth Johnson [Succès].");
         
@@ -410,6 +410,17 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/17/8m9l.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Travis Portland [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Johnny English"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Johnny English:", {
+            file: "https://zupimages.net/up/19/17/wkgu.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Johnny English [Succès].");
         
     }
     
