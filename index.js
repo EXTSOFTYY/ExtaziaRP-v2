@@ -330,7 +330,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Killian Pachocki"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Killian Pachocki:", {
-            file: "https://zupimages.net/up/19/16/xnp4.jpg"
+            file: "https://zupimages.net/up/19/17/4f79.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Killian Pachocki [Succès].");
         
