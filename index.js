@@ -380,17 +380,6 @@ bot.on('message', message => {
         
     }
     
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Nourredine Bahri"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Nourredine Bahri:", {
-            file: "https://zupimages.net/up/19/16/218r.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nourredine Bahri [Succès].");
-        
-    }
-    
      // -> ci d'identité - UPDATE 2.0
 
     if (message.content === prefix + "ci Nathalia Gonzalez"){
@@ -399,17 +388,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/16/m2rq.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nathalia Gonzalez [Succès].");
-        
-    }
-    
-     // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Travis Portland"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Travis Portland:", {
-            file: "https://zupimages.net/up/19/17/8m9l.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Travis Portland [Succès].");
         
     }
     
