@@ -121,7 +121,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Antonio Mantel"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Antonio Mantel:", {
-            file: "https://zupimages.net/up/19/10/b6vd.jpg"
+            file: "https://zupimages.net/up/19/17/pa61.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Mantel [Succès].");
         
