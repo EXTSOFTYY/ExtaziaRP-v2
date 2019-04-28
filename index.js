@@ -261,28 +261,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Guerreiro Quintana"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Guerreiro Quintana:", {
-            file: "https://zupimages.net/up/19/15/74w4.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guerreiro Quintana [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Micke Donkey"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Micke Donkey:", {
-            file: "https://zupimages.net/up/19/15/9swy.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Micke Donkey [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Cédric Ocher"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Cédric Ocher:", {
@@ -316,17 +294,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Dimitri Raskalov"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Dimitri Raskalov:", {
-            file: "https://zupimages.net/up/19/16/4747.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Dimitri Raskalov [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Killian Pachocki"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Killian Pachocki:", {
@@ -338,56 +305,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Elias Tores"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité d' Elias Tores:", {
-            file: "https://zupimages.net/up/19/16/mmcm.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Elias Tores [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Florian Blé"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Florian Blé:", {
-            file: "https://zupimages.net/up/19/16/gtbm.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Florian Blé [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Kyoto Clover"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Kyoto Clover:", {
             file: "https://zupimages.net/up/19/16/tdsj.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kyoto Clover [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Kinsley Bvendo"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Kinsley Bvendo:", {
-            file: "https://zupimages.net/up/19/16/sl23.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kinsley Bvendo [Succès].");
-        
-    }
-    
-     // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Nathalia Gonzalez"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Nathalia Gonzalez:", {
-            file: "https://zupimages.net/up/19/16/m2rq.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nathalia Gonzalez [Succès].");
         
     }
     
