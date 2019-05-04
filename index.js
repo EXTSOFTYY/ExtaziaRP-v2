@@ -126,39 +126,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Mantel [Succès].");
         
     }
-
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Guillaume Popa"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Guillaume Popa:", {
-            file: "https://zupimages.net/up/19/16/tnmp.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guillaume Popa [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Pablo Cannor"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Pablo Cannor:", {
-            file: "https://zupimages.net/up/19/11/rup2.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Pablo Cannor [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Saalva Sopoz"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Saalva Sopoz:", {
-            file: "https://zupimages.net/up/19/18/9qoo.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Saalva Sopoz [Succès].");
-        
-    }
     
 });
 
