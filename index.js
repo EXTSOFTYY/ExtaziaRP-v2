@@ -116,6 +116,281 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /aide [Succès].");
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Aliochka Pietravesky"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d' Aliochka Pietravesky:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aliochka Pietravesky [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Antonio Mantel"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité d' Antonio Mantel:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Mantel [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Bianca Santini"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Bianca Santini:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bianca Santini [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Cédric Ocher"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Cédric Ocher:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Cédric Ocher [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Clay Jensen"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Clay Jensen:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Clay Jensen [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Daril Dixon"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Daril Dixon:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Daril Dixon [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Derek Richards"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Derek Richards:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Derek Richards [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Ethan Arron Marshall"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Ethan Arron Marshall:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ethan Arron Marshall [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Fiona Santini"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Fiona Santini:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fiona Santini [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Franklin White"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Franklin White:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Franklin White [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Guillaume Popa"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Guillaume Popa:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guillaume Popa [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Guy Hart"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Guy Hart:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guy Hart [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Jack Zaza"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Jack Zaza:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jack Zaza [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci James Leblond"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de James Leblond:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci James Leblond [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Killian Pachocki"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Killian Pachocki:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Killian Pachocki [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Leo Piazzi"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Leo Piazzi:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Leo Piazzi [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Logan Chevallier"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Logan Chevallier:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Logan Chevallier [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Marco Marchisio"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Marco Marchisio:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Marco Marchisio [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Mario Giavarini"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Mario Giavarini:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mario Giavarini [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Max Romano"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Max Romano:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Max Romano [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Mehdi Stallon"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Mehdi Stallon:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mehdi Stallon [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Michael Scofield"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Michael Scofield:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Michael Scofield [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Pablo Cannor"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Pablo Cannor:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Pablo Cannor [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Saalva Sopoz"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Saalva Sopoz:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Saalva Sopoz [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Steven Lab"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Steven Lab:", {
+            file: " "
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Steven Lab [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
