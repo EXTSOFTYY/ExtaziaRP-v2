@@ -250,17 +250,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Jack Zaza"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Jack Zaza:", {
-            file: "https://zupimages.net/up/19/19/6jaq.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Jack Zaza [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci James Leblond"){
         message.delete();
         message.channel.send("Voici la ci d'identité de James Leblond:", {
