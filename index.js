@@ -40,8 +40,8 @@ bot.on('message', message => {
         if(message.author.id == "406124485612142592"){
             message.delete();
             var sondagerp15h_embed = new Discord.RichEmbed()
-                .setThumbnail("http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
-                .setAuthor("ExtaziaRP", "http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
+                .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
+                .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
                 .setDescription("Sondage :")
                 .addField("Seras-tu disponible à la session RP de 15h00 ?!", "Répondez ci-dessous grace aux émojis.")
                 .addField(" ✅ : ", " Je serais disponible.")
@@ -71,8 +71,8 @@ bot.on('message', message => {
         if(message.author.id == "406124485612142592"){
             message.delete();
             var sondagerp21h_embed = new Discord.RichEmbed()
-                .setThumbnail("http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
-                .setAuthor("ExtaziaRP", "http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
+                .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
+                .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
                 .setDescription("Sondage :")
                 .addField("Seras-tu disponible à la session RP de 21h00 le 10/05/19 ?", "Répondez ci-dessous grace aux émojis. ")
                 .addField(" ✅ : ", " Je serais disponible.")
