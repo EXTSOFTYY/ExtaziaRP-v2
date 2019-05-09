@@ -380,6 +380,72 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Rodrigo Chevchenko"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Rodrigo Chevchenko:", {
+            file: "https://zupimages.net/up/19/19/3k0d.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Rodrigo Chevchenko [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Mathys Torique"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Mathys Torique:", {
+            file: "https://zupimages.net/up/19/19/2pua.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mathys Torique [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Zlatan Brankovic"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Zlatan Brankovic:", {
+            file: "https://zupimages.net/up/19/19/bbd8.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zlatan Brankovic [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Carlos Hernandez"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Carlos Hernandez:", {
+            file: "https://zupimages.net/up/19/19/qex3.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Carlos Hernandez [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Francesco Redwood"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Francesco Redwood:", {
+            file: "https://zupimages.net/up/19/19/gs0m.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Francesco Redwood [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Osiris Fernandes"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Osiris Fernandes:", {
+            file: "https://zupimages.net/up/19/19/bjqq.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Osiris Fernandes [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
