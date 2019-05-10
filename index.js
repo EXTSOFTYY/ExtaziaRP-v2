@@ -446,6 +446,61 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Escobard Lopez"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Escobard Lopez:", {
+            file: "https://zupimages.net/up/19/19/qj0s.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Escobard Lopez [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Fabio Silva"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Fabio Silva:", {
+            file: "https://zupimages.net/up/19/19/as2f.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fabio Silva [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Juan De Kasos"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Juan De Kasos:", {
+            file: "https://zupimages.net/up/19/19/bbor.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Juan De Kasos [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Lucas Rodriguez"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Lucas Rodriguez:", {
+            file: "https://zupimages.net/up/19/19/a9x0.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Rodriguez [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Santago Salvador"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Santago Salvador:", {
+            file: "https://zupimages.net/up/19/19/vv98.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Santago Salvador [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
