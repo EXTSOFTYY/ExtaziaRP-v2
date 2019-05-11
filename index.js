@@ -143,7 +143,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Bianca Santini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Bianca Santini:", {
-            file: "https://zupimages.net/up/19/19/re4k.jpg"
+            file: "https://zupimages.net/up/19/19/nf4g.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bianca Santini [Succès].");
         
@@ -352,7 +352,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Santiago Salvador"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Santiago Salvador:", {
-            file: "https://zupimages.net/up/19/19/vbmi.jpg"
+            file: "https://zupimages.net/up/19/19/zxss.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Santiago Salvador [Succès].");
         
@@ -440,7 +440,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Fabio Silva"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Fabio Silva:", {
-            file: "https://zupimages.net/up/19/19/as2f.jpg"
+            file: "https://zupimages.net/up/19/19/nkti.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fabio Silva [Succès].");
         
@@ -462,7 +462,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Lucas Rodriguez"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Lucas Rodriguez:", {
-            file: "https://zupimages.net/up/19/19/a9x0.jpg"
+            file: "https://zupimages.net/up/19/19/luu6.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Rodriguez [Succès].");
         
