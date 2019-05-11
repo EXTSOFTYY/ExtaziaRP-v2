@@ -384,7 +384,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "ci Zlatan Brankovic"){
         message.delete();
-        message.channel.send("Voici la ci d'identité de Zlatan Brankovic:", {
+        message.channel.send("Voici la ci d'identité d'Zlatan Brankovic:", {
             file: "https://zupimages.net/up/19/19/bbd8.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zlatan Brankovic [Succès].");
