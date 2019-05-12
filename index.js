@@ -143,7 +143,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Bianca Santini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Bianca Santini:", {
-            file: "https://zupimages.net/up/19/19/nf4g.jpg"
+            file: "https://zupimages.net/up/19/19/re4k.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bianca Santini [Succès].");
         
@@ -209,7 +209,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Fiona Santini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Fiona Santini:", {
-            file: "https://zupimages.net/up/19/19/g6r6.jpg"
+            file: "https://zupimages.net/up/19/19/k6l9.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fiona Santini [Succès].");
         
@@ -264,7 +264,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Leo Piazzi"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Leo Piazzi:", {
-            file: "https://zupimages.net/up/19/19/dsum.jpg"
+            file: "https://zupimages.net/up/19/19/suo3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Leo Piazzi [Succès].");
         
@@ -297,7 +297,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mario Giavarini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mario Giavarini:", {
-            file: "https://zupimages.net/up/19/19/fjec.jpg"
+            file: "https://zupimages.net/up/19/19/4qce.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mario Giavarini [Succès].");
         
@@ -330,7 +330,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Steven Lab"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Steven Lab:", {
-            file: "https://zupimages.net/up/19/19/mxbq.jpg"
+            file: "https://zupimages.net/up/19/19/opmi.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Steven Lab [Succès].");
         
