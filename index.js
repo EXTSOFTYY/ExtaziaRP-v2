@@ -352,7 +352,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Rodrigo Chevchenko"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Rodrigo Chevchenko:", {
-            file: "https://zupimages.net/up/19/19/f6ua.jpg"
+            file: "https://zupimages.net/up/19/19/29sh.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Rodrigo Chevchenko [Succès].");
         
@@ -374,7 +374,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Zlatan Brankovic"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Zlatan Brankovic:", {
-            file: "https://zupimages.net/up/19/19/bbd8.jpg"
+            file: "https://zupimages.net/up/19/19/byzt.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zlatan Brankovic [Succès].");
         
