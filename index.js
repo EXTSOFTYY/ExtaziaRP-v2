@@ -338,17 +338,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Sergio Simeone"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Sergio Simeone:", {
-            file: "https://zupimages.net/up/19/19/zlz0.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Sergio Simeone [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Santiago Salvador"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Santiago Salvador:", {
