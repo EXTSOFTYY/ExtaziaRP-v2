@@ -118,12 +118,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Aliochka Pietravesky"){
+    if (message.content === prefix + "ci Carlos Gambinos"){
         message.delete();
-        message.channel.send("Voici la ci d'identité d' Aliochka Pietravesky:", {
-            file: "https://zupimages.net/up/19/19/ds8w.jpg"
+        message.channel.send("Voici la ci d'identité de Carlos Gambinos:", {
+            file: "https://zupimages.net/up/19/19/cgkp.jpg"
         });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aliochka Pietravesky [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Carlos Gambinos [Succès].");
         
     }
     
