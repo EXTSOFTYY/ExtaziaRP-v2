@@ -118,12 +118,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Carlos Gambinos"){
+    if (message.content === prefix + "ci Barney Ross"){
         message.delete();
-        message.channel.send("Voici la ci d'identité de Carlos Gambinos:", {
-            file: "https://zupimages.net/up/19/19/cgkp.jpg"
+        message.channel.send("Voici la ci d'identité de Barney Ross:", {
+            file: "https://zupimages.net/up/19/20/axq0.jpg"
         });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Carlos Gambinos [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Barney Ross [Succès].");
         
     }
     
@@ -465,6 +465,39 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/19/zlz0.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Sergio Simeone [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Zyphir Zeus"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Zyphir Zeus:", {
+            file: "https://zupimages.net/up/19/20/ld8r.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zyphir Zeus [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Bugs Bloody"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Bugs Bloody:", {
+            file: "https://zupimages.net/up/19/20/rswp.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bugs Bloody [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Lucas Talavera"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Lucas Talavera:", {
+            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Talavera [Succès].");
         
     }
     
