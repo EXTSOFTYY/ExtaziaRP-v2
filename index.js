@@ -501,37 +501,12 @@ bot.on('message', message => {
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     // -> ci d'identité - UPDATE 2.0
 
     if (message.content === prefix + "ci Aaron Black"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Aaron Black:", {
-            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+            file: "https://zupimages.net/up/19/20/oi08.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aaron Black [Succès].");
         
@@ -542,7 +517,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Timéo Decker"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Timéo Decker:", {
-            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+            file: "https://zupimages.net/up/19/20/cd2i.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Timéo Decker [Succès].");
         
@@ -553,7 +528,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Francky Daleman"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Francky Daleman:", {
-            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+            file: "https://zupimages.net/up/19/20/jm6n.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Francky Daleman [Succès].");
         
@@ -564,7 +539,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Abdel Fernandes"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Abdel Fernandes:", {
-            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+            file: "https://zupimages.net/up/19/20/ttdk.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Abdel Fernandes [Succès].");
         
