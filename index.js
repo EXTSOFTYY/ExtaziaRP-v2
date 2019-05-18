@@ -118,17 +118,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Barney Ross"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Barney Ross:", {
-            file: "https://zupimages.net/up/19/20/axq0.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Barney Ross [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Antonio Mantel"){
         message.delete();
         message.channel.send("Voici la ci d'identité d' Antonio Mantel:", {
@@ -363,7 +352,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mathys Torique"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mathys Torique:", {
-            file: "https://zupimages.net/up/19/19/2pua.jpg"
+            file: "https://zupimages.net/up/19/20/x1p3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mathys Torique [Succès].");
         
@@ -396,7 +385,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Francesco Redwood"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Francesco Redwood:", {
-            file: "https://zupimages.net/up/19/19/gs0m.jpg"
+            file: "https://zupimages.net/up/19/20/j2ub.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Francesco Redwood [Succès].");
         
@@ -481,17 +470,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Bugs Bloody"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Bugs Bloody:", {
-            file: "https://zupimages.net/up/19/20/rswp.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bugs Bloody [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Lucas Talavera"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Lucas Talavera:", {
@@ -506,7 +484,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Aaron Black"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Aaron Black:", {
-            file: "https://zupimages.net/up/19/20/oi08.jpg"
+            file: "https://zupimages.net/up/19/20/f4jc.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aaron Black [Succès].");
         
