@@ -154,7 +154,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Cédric Ocher"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Cédric Ocher:", {
-            file: "https://zupimages.net/up/19/16/oaru.jpg"
+            file: "https://zupimages.net/up/19/20/m81x.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Cédric Ocher [Succès].");
         
@@ -242,7 +242,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Guy Hart"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Guy Hart:", {
-            file: "https://zupimages.net/up/19/19/gf3d.jpg"
+            file: "https://zupimages.net/up/19/20/ywuh.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guy Hart [Succès].");
         
@@ -297,7 +297,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mario Giavarini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mario Giavarini:", {
-            file: "https://zupimages.net/up/19/19/4qce.jpg"
+            file: "https://zupimages.net/up/19/20/4ada.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mario Giavarini [Succès].");
         
@@ -517,7 +517,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Timéo Decker"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Timéo Decker:", {
-            file: "https://zupimages.net/up/19/20/cd2i.jpg"
+            file: "https://zupimages.net/up/19/20/24hz.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Timéo Decker [Succès].");
         
@@ -539,7 +539,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Abdel Fernandes"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Abdel Fernandes:", {
-            file: "https://zupimages.net/up/19/20/ttdk.jpg"
+            file: "https://zupimages.net/up/19/20/howv.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Abdel Fernandes [Succès].");
         
