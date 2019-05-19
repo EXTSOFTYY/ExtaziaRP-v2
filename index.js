@@ -198,7 +198,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Fiona Santini"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Fiona Santini:", {
-            file: "https://zupimages.net/up/19/19/k6l9.jpg"
+            file: "https://zupimages.net/up/19/20/edfr.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fiona Santini [Succès].");
         
