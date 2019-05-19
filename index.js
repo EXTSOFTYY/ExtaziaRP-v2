@@ -176,7 +176,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Derek Richards"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Derek Richards:", {
-            file: "https://zupimages.net/up/19/19/tc67.jpg"
+            file: "https://zupimages.net/up/19/20/5f36.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Derek Richards [Succès].");
         
@@ -352,7 +352,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mathys Torique"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mathys Torique:", {
-            file: "https://zupimages.net/up/19/20/x1p3.jpg"
+            file: "https://zupimages.net/up/19/20/ixzb.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mathys Torique [Succès].");
         
@@ -462,7 +462,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Zyphir Zeus"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Zyphir Zeus:", {
-            file: "https://zupimages.net/up/19/20/ld8r.jpg"
+            file: "https://zupimages.net/up/19/20/sold.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zyphir Zeus [Succès].");
         
@@ -484,7 +484,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Aaron Black"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Aaron Black:", {
-            file: "https://zupimages.net/up/19/20/f4jc.jpg"
+            file: "https://zupimages.net/up/19/20/ok4f.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Aaron Black [Succès].");
         
