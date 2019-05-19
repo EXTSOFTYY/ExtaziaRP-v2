@@ -473,7 +473,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Lucas Talavera"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Lucas Talavera:", {
-            file: "https://zupimages.net/up/19/20/8f6a.jpg"
+            file: "https://zupimages.net/up/19/20/jdkr.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Talavera [Succès].");
         
