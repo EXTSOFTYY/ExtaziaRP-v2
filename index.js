@@ -523,6 +523,39 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Boby Dalton"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Boby Dalton:", {
+            file: "https://zupimages.net/up/19/21/z3vo.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Boby Dalton [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Ivan Popkov"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Ivan Popkov:", {
+            file: "https://zupimages.net/up/19/21/bapv.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ivan Popkov [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Thomas Hawk"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Thomas Hawk:", {
+            file: "https://zupimages.net/up/19/21/2kc2.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Thomas Hawk [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
