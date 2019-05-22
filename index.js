@@ -525,17 +525,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Boby Dalton"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Boby Dalton:", {
-            file: "https://zupimages.net/up/19/21/z3vo.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Boby Dalton [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Ivan Popkov"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ivan Popkov:", {
