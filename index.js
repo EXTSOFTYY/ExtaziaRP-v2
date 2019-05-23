@@ -74,7 +74,7 @@ bot.on('message', message => {
                 .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
                 .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 21h00 le 18/05/2019 ?", "Répondez ci-dessous grace aux émojis. ")
+                .addField("Seras-tu disponible à la session RP de 21h00 le 24/05/2019 ?", "Répondez ci-dessous grace aux émojis. ")
                 .addField(" ✅ : ", " Je serais disponible.")
                 .addField(" ❎ : ", "  Je serais indisponible.")
                 .addField(" ⌛ : ", " Je serais en retard.")
@@ -498,17 +498,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/20/24hz.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Timéo Decker [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Francky Daleman"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Francky Daleman:", {
-            file: "https://zupimages.net/up/19/20/jm6n.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Francky Daleman [Succès].");
         
     }
     
