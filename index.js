@@ -534,6 +534,28 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Raoule Hamza"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Raoule Hamza:", {
+            file: "https://zupimages.net/up/19/21/e3q1.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Raoule Hamza [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Azise Belhamme"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Azise Belhamme:", {
+            file: "https://zupimages.net/up/19/21/370d.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Azise Belhamme [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
