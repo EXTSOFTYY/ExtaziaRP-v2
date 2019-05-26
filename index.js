@@ -261,17 +261,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Logan Chevallier"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Logan Chevallier:", {
-            file: "https://zupimages.net/up/19/19/qx3q.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Logan Chevallier [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Marco Marchisio"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Marco Marchisio:", {
