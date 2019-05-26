@@ -495,7 +495,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Ivan Popkov"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ivan Popkov:", {
-            file: "https://zupimages.net/up/19/21/bapv.jpg"
+            file: "https://zupimages.net/up/19/21/h9nf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ivan Popkov [Succès].");
         
@@ -517,7 +517,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Raoule Hamza"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Raoule Hamza:", {
-            file: "https://zupimages.net/up/19/21/e3q1.jpg"
+            file: "https://zupimages.net/up/19/21/26mv.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Raoule Hamza [Succès].");
         
