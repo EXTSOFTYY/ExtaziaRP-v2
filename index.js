@@ -187,7 +187,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Ethan Arron Marshall"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ethan Arron Marshall:", {
-            file: "https://zupimages.net/up/19/19/odgc.jpg"
+            file: "https://zupimages.net/up/19/21/skl0.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ethan Arron Marshall [Succès].");
         
