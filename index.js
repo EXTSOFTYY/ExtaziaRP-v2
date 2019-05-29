@@ -523,6 +523,28 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Doumé Santi"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Doumé Santi:", {
+            file: "https://zupimages.net/up/19/22/59q7.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Doumé Santi [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Kareel De Kerk"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Kareel De Kerk:", {
+            file: "https://zupimages.net/up/19/22/48ei.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kareel De Kerk [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
