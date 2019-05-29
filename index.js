@@ -34,6 +34,7 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
     }
 
+    
     // Sondage RP - 15h00.
 
     if (message.content === prefix + "sondagerp-15h") {
