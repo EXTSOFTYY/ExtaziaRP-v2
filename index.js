@@ -363,7 +363,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Francesco Redwood"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Francesco Redwood:", {
-            file: "https://zupimages.net/up/19/20/j2ub.jpg"
+            file: "https://zupimages.net/up/19/22/q78j.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Francesco Redwood [Succès].");
         
@@ -506,7 +506,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Raoule Hamza"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Raoule Hamza:", {
-            file: "https://zupimages.net/up/19/21/26mv.jpg"
+            file: "https://zupimages.net/up/19/22/icjv.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Raoule Hamza [Succès].");
         
