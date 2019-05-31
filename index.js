@@ -74,7 +74,7 @@ bot.on('message', message => {
                 .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
                 .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 21h00 le 31/05/19 ?", "Répondez ci-dessous grace aux émojis. ")
+                .addField("Seras-tu disponible à la session RP de 21h00 le 01/06/19 ?", "Répondez ci-dessous grace aux émojis. ")
                 .addField(" ✅ : ", " Je serais disponible.")
                 .addField(" ❎ : ", "  Je serais indisponible.")
                 .addField(" ⌛ : ", " Je serais en retard.")
