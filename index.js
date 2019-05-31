@@ -536,17 +536,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Kareel De Kerk"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Kareel De Kerk:", {
-            file: "https://zupimages.net/up/19/22/48ei.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Kareel De Kerk [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Aly Gatares"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Aly Gatares:", {
@@ -564,17 +553,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/22/q9bj.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Valanca [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Dolf De Klerk"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Dolf De Klerk:", {
-            file: "https://zupimages.net/up/19/22/b5e7.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Dolf De Klerk [Succès].");
         
     }
     
