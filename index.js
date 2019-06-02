@@ -341,7 +341,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Zlatan Brankovic"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Zlatan Brankovic:", {
-            file: "https://zupimages.net/up/19/19/byzt.jpg"
+            file: "https://zupimages.net/up/19/22/kjj5.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zlatan Brankovic [Succès].");
         
@@ -462,7 +462,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Timéo Decker"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Timéo Decker:", {
-            file: "https://zupimages.net/up/19/21/gy8u.jpg"
+            file: "https://zupimages.net/up/19/22/yil5.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Timéo Decker [Succès].");
         
@@ -528,7 +528,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Doumé Santi"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Doumé Santi:", {
-            file: "https://zupimages.net/up/19/22/59q7.jpg"
+            file: "https://zupimages.net/up/19/22/kkjw.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Doumé Santi [Succès].");
         
@@ -561,7 +561,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Hugo Mc Tiller"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Hugo Mc Tiller:", {
-            file: "https://zupimages.net/up/19/22/zkzm.jpg"
+            file: "https://zupimages.net/up/19/22/6fkc.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Hugo Mc Tiller [Succès].");
         
@@ -572,7 +572,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Reagan Johnson"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Reagan Johnson:", {
-            file: "https://zupimages.net/up/19/22/50fn.jpg"
+            file: "https://zupimages.net/up/19/22/a3cf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Reagan Johnson [Succès].");
         
