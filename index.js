@@ -162,17 +162,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Daril Dixon"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Daril Dixon:", {
-            file: "https://zupimages.net/up/19/19/9o8v.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Daril Dixon [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Derek Richards"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Derek Richards:", {
@@ -272,17 +261,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Max Romano"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Max Romano:", {
-            file: "https://zupimages.net/up/19/19/fye7.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Max Romano [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Pablo Cannor"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Pablo Cannor:", {
@@ -338,17 +316,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Carlos Hernandez"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Carlos Hernandez:", {
-            file: "https://zupimages.net/up/19/19/qex3.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Carlos Hernandez [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Francesco Redwood"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Francesco Redwood:", {
@@ -366,39 +333,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/19/hyge.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Osiris Fernandes [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Escobard Lopez"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Escobard Lopez:", {
-            file: "https://zupimages.net/up/19/19/qj0s.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Escobard Lopez [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Fabio Silva"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Fabio Silva:", {
-            file: "https://zupimages.net/up/19/19/ip0w.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Fabio Silva [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Juan De Kasos"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Juan De Kasos:", {
-            file: "https://zupimages.net/up/19/19/bbor.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Juan De Kasos [Succès].");
         
     }
     
@@ -476,17 +410,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/21/h9nf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ivan Popkov [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Thomas Hawk"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Thomas Hawk:", {
-            file: "https://zupimages.net/up/19/21/2kc2.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Thomas Hawk [Succès].");
         
     }
     
