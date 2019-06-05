@@ -479,6 +479,28 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Laura Santi"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Laura Santi:", {
+            file: "https://zupimages.net/up/19/23/ssid.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Laura Santi [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Lucas Black"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Lucas Black:", {
+            file: "https://zupimages.net/up/19/23/8k0i.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Black [Succès].");
+        
+    }
+    
 });
 
 bot.login(process.env.TOKEN);
