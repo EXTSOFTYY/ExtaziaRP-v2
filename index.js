@@ -264,7 +264,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Steven Lab"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Steven Lab:", {
-            file: "https://zupimages.net/up/19/19/opmi.jpg"
+            file: "https://zupimages.net/up/19/19/mxbq.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Steven Lab [Succès].");
         
