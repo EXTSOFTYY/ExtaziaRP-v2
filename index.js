@@ -231,7 +231,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Tom Wills"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Tom Wills:", {
-            file: "https://zupimages.net/up/19/23/005k.jpg"
+            file: "https://zupimages.net/up/19/23/48et.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tom Wills [Succès].");
         
@@ -462,7 +462,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Reagan Johnson"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Reagan Johnson:", {
-            file: "https://zupimages.net/up/19/22/a3cf.jpg"
+            file: "https://zupimages.net/up/19/23/tsb2.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Reagan Johnson [Succès].");
         
