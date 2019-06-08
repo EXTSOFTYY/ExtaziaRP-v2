@@ -272,17 +272,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Rodrigo Chevchenko"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Rodrigo Chevchenko:", {
-            file: "https://zupimages.net/up/19/19/29sh.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Rodrigo Chevchenko [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Mathys Torique"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mathys Torique:", {
