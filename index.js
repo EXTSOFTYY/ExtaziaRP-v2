@@ -484,7 +484,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Lucas Black"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Lucas Black:", {
-            file: "https://zupimages.net/up/19/23/8k0i.jpg"
+            file: "https://zupimages.net/up/19/23/b5kz.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Black [Succès].");
         
