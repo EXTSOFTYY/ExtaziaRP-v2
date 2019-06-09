@@ -492,12 +492,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Gonzales Eduardo"){
+    if (message.content === prefix + "ci Eduardo Gonzales"){
         message.delete();
-        message.channel.send("Voici la ci d'identité de Gonzales Eduardo:", {
+        message.channel.send("Voici la ci d'identité de Eduardo Gonzales:", {
             file: "https://zupimages.net/up/19/23/4lbk.jpg"
         });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Gonzales Eduardo [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Eduardo Gonzales [Succès].");
         
     }
     
