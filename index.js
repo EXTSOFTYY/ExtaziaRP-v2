@@ -341,7 +341,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Zyphir Zeus"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Zyphir Zeus:", {
-            file: "https://zupimages.net/up/19/21/w5hk.jpg"
+            file: "https://zupimages.net/up/19/23/dlp7.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Zyphir Zeus [Succès].");
         
