@@ -209,7 +209,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Guy Hart"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Guy Hart:", {
-            file: "https://zupimages.net/up/19/21/djx2.jpg"
+            file: "https://zupimages.net/up/19/23/dlp7.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Guy Hart [Succès].");
         
