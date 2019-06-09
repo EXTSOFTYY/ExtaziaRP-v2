@@ -490,6 +490,39 @@ bot.on('message', message => {
         
     }
     
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Gonzales Eduardo"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Gonzales Eduardo:", {
+            file: "https://zupimages.net/up/19/23/4lbk.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Gonzales Eduardo [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Olivier Parker"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Olivier Parker:", {
+            file: "https://zupimages.net/up/19/23/75wp.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Olivier Parker [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Bastien De Borbon"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Bastien De Borbon:", {
+            file: "https://zupimages.net/up/19/23/pfl7.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bastien De Borbon [Succès].");
+        
+    }
+
 });
 
 bot.login(process.env.TOKEN);
