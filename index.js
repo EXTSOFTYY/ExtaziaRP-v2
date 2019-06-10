@@ -440,7 +440,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Antonio Valanca"){
         message.delete();
         message.channel.send("Voici la ci d'identité d'Antonio Valanca:", {
-            file: "https://zupimages.net/up/19/22/q9bj.jpg"
+            file: "https://zupimages.net/up/19/24/e3sf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Valanca [Succès].");
         
@@ -495,7 +495,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Eduardo Gonzales"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Eduardo Gonzales:", {
-            file: "https://zupimages.net/up/19/23/4lbk.jpg"
+            file: "https://zupimages.net/up/19/24/gu1o.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Eduardo Gonzales [Succès].");
         
