@@ -484,7 +484,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Lucas Black"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Lucas Black:", {
-            file: "https://zupimages.net/up/19/23/b5kz.jpg"
+            file: "https://zupimages.net/up/19/24/1obz.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Lucas Black [Succès].");
         
@@ -495,7 +495,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Eduardo Gonzales"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Eduardo Gonzales:", {
-            file: "https://zupimages.net/up/19/24/gu1o.jpg"
+            file: "https://zupimages.net/up/19/24/9xn9.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Eduardo Gonzales [Succès].");
         
@@ -520,6 +520,39 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/23/pfl7.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bastien De Borbon [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Nicolas Dupont"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Nicolas Dupont:", {
+            file: "https://zupimages.net/up/19/24/7yec.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nicolas Dupont [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Charline Trevor"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Charline Trevor:", {
+            file: "https://zupimages.net/up/19/24/q0f4.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Charline Trevor [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Sousou Sultan"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Sousou Sultan:", {
+            file: "https://zupimages.net/up/19/24/gxyq.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Sousou Sultan [Succès].");
         
     }
 
