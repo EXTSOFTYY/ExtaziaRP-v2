@@ -555,6 +555,50 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Sousou Sultan [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci John Scott"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de John Scott:", {
+            file: "https://zupimages.net/up/19/24/qdyw.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Scott [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Ninhio Montéro"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Ninhio Montéro:", {
+            file: "https://zupimages.net/up/19/24/gx4q.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ninhio Montéro [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Tonio Montéro"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Tonio Montéro:", {
+            file: "https://zupimages.net/up/19/24/npep.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tonio Montéro [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Alexis Gonzales"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Alexis Gonzales:", {
+            file: "https://zupimages.net/up/19/24/z43g.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alexis Gonzales [Succès].");
+        
+    }
 
 });
 
