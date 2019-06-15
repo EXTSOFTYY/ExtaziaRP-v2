@@ -572,7 +572,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Ninhio Montéro"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Ninhio Montéro:", {
-            file: "https://zupimages.net/up/19/24/gx4q.jpg"
+            file: "https://zupimages.net/up/19/24/r3d3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ninhio Montéro [Succès].");
         
@@ -583,7 +583,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Tonio Montéro"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Tonio Montéro:", {
-            file: "https://zupimages.net/up/19/24/npep.jpg"
+            file: "https://zupimages.net/up/19/24/zv11.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tonio Montéro [Succès].");
         
