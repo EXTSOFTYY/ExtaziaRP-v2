@@ -118,12 +118,12 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Antonio Mantel"){
+    if (message.content === prefix + "ci Alexis Smith"){
         message.delete();
-        message.channel.send("Voici la ci d'identité d' Antonio Mantel:", {
-            file: "https://zupimages.net/up/19/17/pa61.jpg"
+        message.channel.send("Voici la ci d'identité d' Alexis Smith:", {
+            file: "https://zupimages.net/up/19/24/76uz.jpg"
         });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Antonio Mantel [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alexis Smith [Succès].");
         
     }
     
@@ -605,7 +605,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Léo Marka"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Léo Marka:", {
-            file: "https://zupimages.net/up/19/24/qwts.jpg"
+            file: "https://zupimages.net/up/19/24/14va.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Léo Marka [Succès].");
         
