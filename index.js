@@ -610,6 +610,17 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Léo Marka [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Mike Parker"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Mike Parker:", {
+            file: "https://zupimages.net/up/19/24/n7h5.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mike Parker [Succès].");
+        
+    }
 });
 
 bot.login(process.env.TOKEN);
