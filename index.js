@@ -154,7 +154,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Clay Jensen"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Clay Jensen:", {
-            file: "https://zupimages.net/up/19/19/3thq.jpg"
+            file: "https://zupimages.net/up/19/25/6e1n.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Clay Jensen [Succès].");
         
@@ -495,7 +495,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Eduardo Gonzales"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Eduardo Gonzales:", {
-            file: "https://zupimages.net/up/19/24/9xn9.jpg"
+            file: "https://zupimages.net/up/19/24/gu1o.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Eduardo Gonzales [Succès].");
         
@@ -569,28 +569,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Ninhio Montéro"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Ninhio Montéro:", {
-            file: "https://zupimages.net/up/19/24/r3d3.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Ninhio Montéro [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Tonio Montéro"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Tonio Montéro:", {
-            file: "https://zupimages.net/up/19/24/zv11.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tonio Montéro [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Alexis Gonzales"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Alexis Gonzales:", {
@@ -616,7 +594,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Mike Parker"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Mike Parker:", {
-            file: "https://zupimages.net/up/19/24/n7h5.jpg"
+            file: "https://zupimages.net/up/19/25/87qf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mike Parker [Succès].");
         
