@@ -599,6 +599,39 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mike Parker [Succès].");
         
     }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Alex Full"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Alex Full:", {
+            file: "https://zupimages.net/up/19/25/jxb6.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Full [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Thomas Dazo"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Thomas Dazo:", {
+            file: "https://zupimages.net/up/19/25/z9gl.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Thomas Dazo [Succès].");
+        
+    }
+    
+    // -> ci d'identité - UPDATE 2.0
+
+    if (message.content === prefix + "ci Tony Wayne"){
+        message.delete();
+        message.channel.send("Voici la ci d'identité de Tony Wayne:", {
+            file: "https://zupimages.net/up/19/25/bz2d.jpg"
+        });
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Tony Wayne [Succès].");
+        
+    }
 });
 
 bot.login(process.env.TOKEN);
