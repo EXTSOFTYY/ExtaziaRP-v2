@@ -116,6 +116,23 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /aide [Succès].");
     }
     
+    // -> Commande /aide musique.
+    
+    if (message.content === prefix + "aide musique"){
+        message.delete();
+        var aide_embed = new Discord.RichEmbed()
+            .setColor('#05E2F0')
+            .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
+            .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
+            .addField("Les commandes :", "─────────────────────")
+            .addField("[BOT ExtaziaRP] - PLAY:", "-> /play [<lien youtube (musique)>] | Pour lancer une musique.")
+            .addField("[BOT ExtaziaRP] - RESET:", "-> /reset | Pour éteindre la musique en cours de lecture.")
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(aide_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /aide musique [Succès].");
+    }
+    
     // -> ci d'identité - UPDATE 2.0
 
     if (message.content === prefix + "ci Alexis Smith"){
