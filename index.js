@@ -125,8 +125,8 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
             .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
             .addField("Les commandes :", "─────────────────────")
-            .addField("[BOT ExtaziaRP] - PLAY:", "-> /play [<lien youtube (musique)>] | Pour lancer une musique.")
-            .addField("[BOT ExtaziaRP] - RESET:", "-> /reset | Pour éteindre la musique en cours de lecture.")
+            .addField("[BOT ExtaziaRP] - Play:", "-> /play [<lien youtube (musique)>] | Pour lancer une musique.")
+            .addField("[BOT ExtaziaRP] - Reset:", "-> /reset | Pour éteindre le bot et couper la musique.")
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(aide_embed);
