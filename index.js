@@ -77,13 +77,13 @@ bot.on('message', message => {
                 .addField("Seras-tu disponible à la session RP de 21h00 le 23/06/19 ? Afin qu'une session se lance un minimum de 12 « ✅ » est requis.", "Répondez ci-dessous grace aux émojis. ")
                 .addField(" ✅ : ", " Je serais disponible.")
                 .addField(" ❌ : ", "  Je serais indisponible.")
-                .addField(" ⌛️ : ", " Je serais en retard.")
+                .addField(" ⌛ : ", " Je serais en retard.")
                 .setColor('#05E2F0')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
             message.channel.send(sondagerp21h_embed)
             .then(function (message) {
-                message.react("⌛️")
+                message.react("⌛")
                 message.react("❌")
                 message.react("✅") 
                 console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
