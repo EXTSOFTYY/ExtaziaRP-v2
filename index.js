@@ -74,18 +74,18 @@ bot.on('message', message => {
                 .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
                 .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 21h00 le 22/06/19 ?", "Répondez ci-dessous grace aux émojis. ")
-                .addField(" ✅ : ", " Je serais disponible.")
-                .addField(" ❎ : ", "  Je serais indisponible.")
-                .addField(" ⌛ : ", " Je serais en retard.")
+                .addField("Seras-tu disponible à la session RP de 21h00 le 23/06/19 ? Afin qu'une session se lance un minimum de 12 « :white_check_mark: » est requis.", "Répondez ci-dessous grace aux émojis. ")
+                .addField(" :white_check_mark: : ", " Je serais disponible.")
+                .addField(" :x: : ", "  Je serais indisponible.")
+                .addField(" :hourglass_flowing_sand: : ", " Je serais en retard.")
                 .setColor('#05E2F0')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
             message.channel.send(sondagerp21h_embed)
             .then(function (message) {
-                message.react("⌛")
-                message.react("❎")
-                message.react("✅") 
+                message.react(":hourglass_flowing_sand:")
+                message.react(":x:")
+                message.react(":white_check_mark:") 
                 console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
             }).catch(function() {
             });
