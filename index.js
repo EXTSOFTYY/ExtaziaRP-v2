@@ -666,7 +666,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci Brian Taylor"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Brian Taylor:", {
-            file: "https://zupimages.net/up/19/25/7ctv.jpg"
+            file: "https://zupimages.net/up/19/25/vyb3.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Brian Taylor [Succès].");
         
@@ -677,7 +677,7 @@ bot.on('message', message => {
     if (message.content === prefix + "ci John Richart"){
         message.delete();
         message.channel.send("Voici la ci d'identité de John Richart:", {
-            file: "https://zupimages.net/up/19/25/b4l0.jpg"
+            file: "https://zupimages.net/up/19/25/k1ii.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci John Richart [Succès].");
         
