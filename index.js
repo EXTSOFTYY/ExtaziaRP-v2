@@ -509,28 +509,6 @@ bot.on('message', message => {
     
     // -> ci d'identité - UPDATE 2.0
 
-    if (message.content === prefix + "ci Bastien De Borbon"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Bastien De Borbon:", {
-            file: "https://zupimages.net/up/19/23/pfl7.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Bastien De Borbon [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Nicolas Dupont"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Nicolas Dupont:", {
-            file: "https://zupimages.net/up/19/24/7yec.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Nicolas Dupont [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
     if (message.content === prefix + "ci Charline Trevor"){
         message.delete();
         message.channel.send("Voici la ci d'identité de Charline Trevor:", {
@@ -581,28 +559,6 @@ bot.on('message', message => {
             file: "https://zupimages.net/up/19/25/87qf.jpg"
         });
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Mike Parker [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Alex Full"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Alex Full:", {
-            file: "https://zupimages.net/up/19/25/9kyg.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Alex Full [Succès].");
-        
-    }
-    
-    // -> ci d'identité - UPDATE 2.0
-
-    if (message.content === prefix + "ci Thomas Dazo"){
-        message.delete();
-        message.channel.send("Voici la ci d'identité de Thomas Dazo:", {
-            file: "https://zupimages.net/up/19/25/z9gl.jpg"
-        });
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /ci Thomas Dazo [Succès].");
         
     }
     
