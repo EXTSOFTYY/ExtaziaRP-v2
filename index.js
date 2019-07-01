@@ -37,7 +37,7 @@ bot.on('message', message => {
     // Sondage RP - 21h00.
 
     if (message.content === prefix + "sondagerp-21h") {
-        if(message.author.id == "406124485612142592" + "344771703039066113"){
+        if(message.author.id == "406124485612142592", "344771703039066113"){
             message.delete();
             var sondagerp21h_embed = new Discord.RichEmbed()
                 .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
