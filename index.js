@@ -33,42 +33,11 @@ bot.on('message', message => {
         message.channel.send(say);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
     }
-    
-    // Sondage RP - 21h00.
-
-    if (message.content === prefix + "sondagerp-21h") {
-        if(message.author.id == "344771703039066113"){
-            message.delete();
-            var sondagerp21h_embed = new Discord.RichEmbed()
-                .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
-                .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
-                .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 21h00 le 30/06/19 ? Afin qu'une session se lance un minimum de 12 « ✅ » est requis.", "Répondez ci-dessous grace aux émojis. ")
-                .addField(" ✅ : ", " Je serais disponible.")
-                .addField(" ❌ : ", "  Je serais indisponible.")
-                .addField(" ⌛ : ", " Je serais en retard.")
-                .setColor('#05E2F0')
-                .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-                .setTimestamp()
-            message.channel.send(sondagerp21h_embed)
-            .then(function (message) {
-                message.react("⌛")
-                message.react("❌")
-                message.react("✅") 
-                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
-            }).catch(function() {
-            });
-        }else{
-            message.delete();
-            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-21h [Succès].");
-        }
-
-    }
 
     // Sondage RP - 21h00.
 
     if (message.content === prefix + "sondagerp-21h") {
-        if(message.author.id == "406124485612142592"){
+        if(message.author.id == "406124485612142592" + "344771703039066113"){
             message.delete();
             var sondagerp21h_embed = new Discord.RichEmbed()
                 .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
