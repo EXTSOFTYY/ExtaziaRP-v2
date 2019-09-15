@@ -52,6 +52,23 @@ bot.on('message', message => {
         message.channel.send(connexion_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /connexion [Succès].");
     }
+
+// -> Commande /vote.
+    
+    if (message.content === prefix + "vote"){
+        message.delete();
+        var vote_embed = new Discord.RichEmbed()
+            .setColor('#05E2F0')
+            .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
+            .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
+            .addField("**Comment puis-je soutenir le serveur gratuitement ?**", "─────────────────────")
+            .setDescription("Cliquer ici : [ Top-Serveurs](https://gta.top-serveurs.net/frbe-extaziarp-rp-serieux-illegal-legal-16-whitelist) !")
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(vote_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
+    }
 });
+
 
 bot.login(process.env.TOKEN);
