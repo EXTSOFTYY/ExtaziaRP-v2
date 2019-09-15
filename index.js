@@ -44,7 +44,7 @@ bot.on('message', message => {
             .setColor('#05E2F0')
             .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
             .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
-            .addField("🌈 Comment puis-je me connecter sur le serveur ? 🌈", "─────────────────────")
+            .addField("**Comment puis-je me connecter sur le serveur ?**", "─────────────────────")
             .addField("Première étape:", "• L'adresse IP n'est pas encore disponible.")
             .addField("Deuxième étape:", "• Il vous suffit d'ouvrir la console (F8) et inscrire -> connect [<ip>].")
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
