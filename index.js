@@ -53,9 +53,9 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /connexion [Succès].");
     }
 
-// -> Commande /vote.
+// -> Commande /topserveur.
     
-    if (message.content === prefix + "vote"){
+    if (message.content === prefix + "topserveurs"){
         message.delete();
         var vote_embed = new Discord.RichEmbed()
             .setColor('#05E2F0')
@@ -66,7 +66,7 @@ bot.on('message', message => {
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(vote_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /topserveurs [Succès].");
     }
 });
 
