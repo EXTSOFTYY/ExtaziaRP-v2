@@ -62,7 +62,8 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
             .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
             .addField("**Comment puis-je soutenir le serveur gratuitement ?**", "─────────────────────")
-            .addField("• https://gta.top-serveurs.net/frbe-extaziarp-rp-serieux-illegal-legal-16-whitelist", "Merci aux personnes qui voteront pour le serveur ! ❤️")
+            .addField("**Il vous suffit de cliquer sur le lien ci-dessous:**", "**https://gta.top-serveurs.net/frbe-extaziarp-rp-serieux-illegal-legal-16-whitelist**")
+            .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(vote_embed);
