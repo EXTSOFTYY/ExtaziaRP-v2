@@ -8,17 +8,7 @@ var prefix = ("/");
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'ExtaziaRP.', type : 0}})
     console.log("[BOT ExtaziaRP] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
-});    
-
-    // -> Rejoindre / quitter le serveur.
-
-bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "【🔒】logs").send(`[BOT ExtaziaRP] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur discord!`)
-})
-
-bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "【🔒】logs").send(`[BOT ExtaziaRP] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur discord!`)
-})
+});
 
 bot.on('message', message => {
     
