@@ -53,9 +53,9 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /connexion [Succès].");
     }
 
-// -> Commande /topserveur.
+// -> Commande /vote.
     
-    if (message.content === prefix + "topserveurs"){
+    if (message.content === prefix + "vote"){
         message.delete();
         var vote_embed = new Discord.RichEmbed()
             .setColor('#05E2F0')
@@ -67,7 +67,24 @@ bot.on('message', message => {
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(vote_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /topserveurs [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
+    }
+    
+// -> Commande /don    
+    
+    if (message.content === prefix + "don"){
+        message.delete();
+        var don_embed = new Discord.RichEmbed()
+            .setColor('#05E2F0')
+            .setThumbnail("https://zupimages.net/up/19/19/1ve9.jpg")
+            .setAuthor("ExtaziaRP", "https://zupimages.net/up/19/19/1ve9.jpg")
+            .addField("**Comment puis-je contribuer financièrement pour le serveur?**", "─────────────────────")
+            .addField("**Il vous suffit de cliquer sur le lien ci-dessous:**", "**https://www.patreon.com/extaziarp?fan_landing=true**")
+            .addField("─────────────────────", "Nous vous remercions pour chaque don, même le plus petit, mais ne vous sentez pas obligé d'y participer. C’est au bon vouloir de chacun. Merci d’être présent pour le serveur on ne le répétera jamais assez ! ❤️")
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(don_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /don [Succès].");
     }
 });
 
